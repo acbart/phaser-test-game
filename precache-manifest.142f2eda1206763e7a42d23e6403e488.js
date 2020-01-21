@@ -20,12 +20,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/phaser-test-game/icons/icons-512.png"
   },
   {
-    "revision": "65a6c5a42972c0171d4775fd4f5a8a6f",
+    "revision": "ba98f9cc6620da549a4804be5e9bfd30",
     "url": "/phaser-test-game/index.html"
   },
   {
-    "revision": "ef52d360c60a70e7e9e5",
-    "url": "/phaser-test-game/main.fc6384c4fad8d62b1a3f.bundle.js"
+    "revision": "bcd24a5781a9d14b7d39",
+    "url": "/phaser-test-game/main.2e0cfcc4e3016169f584.bundle.js"
   },
   {
     "revision": "bf38d0c9760162342f12cd9b44fbf4ef",
