@@ -1,8 +1,9 @@
 import PhaserLogo from '../objects/phaserLogo'
 import FpsText from '../objects/fpsText'
+import SpinnyStar from '../objects/spinnyStar'
 
 export default class MainScene extends Phaser.Scene {
-  fpsText: Phaser.GameObjects.Text
+  fpsText: Phaser.GameObjects.Text;
 
   constructor() {
     super({ key: 'MainScene' })
@@ -11,6 +12,8 @@ export default class MainScene extends Phaser.Scene {
   create() {
     new PhaserLogo(this, this.cameras.main.width / 2, 0)
     this.fpsText = new FpsText(this)
+
+    new SpinnyStar(this, 100, 100);
 
     // display the Phaser.VERSION
     this.add

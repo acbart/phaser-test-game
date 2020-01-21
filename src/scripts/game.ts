@@ -2,8 +2,8 @@ import 'phaser'
 import MainScene from './scenes/mainScene'
 import PreloadScene from './scenes/preloadScene'
 
-const DEFAULT_WIDTH = 1280
-const DEFAULT_HEIGHT = 720
+const DEFAULT_WIDTH = 400;
+const DEFAULT_HEIGHT = 400;
 
 // @ts-ignore https://github.com/photonstorm/phaser/issues/4522
 // still not working in 3.18.1 :/
